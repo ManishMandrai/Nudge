@@ -1,50 +1,59 @@
-# Welcome to your Expo app 👋
+# HabitNudge 🌙
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A gentle evening companion that helps you build habits — without the guilt, streaks, or leaderboards.
 
-## Get started
+## What is this?
 
-1. Install dependencies
+HabitNudge checks in with you once every evening, right before you sleep.
 
-   ```bash
-   npm install
-   ```
+It sends you a unique, AI-written message every night — never the same text twice — that feels like a thoughtful friend nudging you, not a robot reminding you.
 
-2. Start the app
+You tap it, check off what you did today, and see your progress in a simple table. That's it.
 
-   ```bash
-   npx expo start
-   ```
+## The problem it solves
 
-In the output, you'll find options to open the app in a
+Most habit apps fail not because people are lazy — but because the reminders become invisible. Same notification, same time, same text every day. Your brain filters it out within a week.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+HabitNudge stays surprising. Every evening message is freshly written by AI, warm and human, just for you and your habits. That tiny bit of surprise keeps you opening it.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## The philosophy
 
-## Get a fresh project
+Life moves fast. Distractions are everywhere. Most people don't fail at habits because they don't care — they fail because they never stop to notice the days slipping by.
 
-When you're ready, run:
+HabitNudge gives you one quiet moment each evening to look at your own life and ask — *how did today go?*
 
-```bash
-npm run reset-project
-```
+That one question, asked consistently, changes everything.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+This app is built for the person who is alone and trying. The competitive exam student in a hostel room. The person who moved to a new city with no accountability partner. The one who wants to be better but has no one checking on them.
 
-## Learn more
+HabitNudge becomes that quiet friend. Not pushy. Not judgmental. Just there every evening with a warm message that says — someone cares, even if it's just this app.
 
-To learn more about developing your project with Expo, look at the following resources:
+## How it works
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+1. You set up your habits and sleep time once
+2. Every evening, 20–40 minutes before your sleep time, you get a notification
+3. You tap it, see a fresh AI-written message, check off your habits
+4. Your progress is saved in a simple 7-day table
 
-## Join the community
+## What it will never have
 
-Join our community of developers creating universal apps.
+- Streaks with fire emojis
+- Leaderboards or points
+- Guilt messages if you miss a day
+- Social features
+- Subscriptions or tricks
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Built with
+
+- React Native + Expo
+- Groq AI (llama-3.3) for nightly messages
+- AsyncStorage for local data — no account, no server, no cloud
+- expo-notifications for scheduled reminders
+
+## Download
+
+Coming soon to Google Play Store.
+
+---
+
+*Built by one person, for one person first. If it helps you too — that's enough.*
