@@ -1,10 +1,10 @@
-# HabitNudge 🌙
+# Nudge 🌙
 
 A gentle evening companion that helps you build habits — without the guilt, streaks, or leaderboards.
 
 ## What is this?
 
-HabitNudge checks in with you once every evening, right before you sleep.
+Nudge checks in with you once every evening, right before you sleep.
 
 It sends you a unique, AI-written message every night — never the same text twice — that feels like a thoughtful friend nudging you, not a robot reminding you.
 
