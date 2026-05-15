@@ -54,6 +54,8 @@ HabitNudge becomes that quiet friend. Not pushy. Not judgmental. Just there ever
 
 Coming soon to Google Play Store.
 
+For testing - https://expo.dev/accounts/manish_12/projects/HabitNudge/builds/f8481608-2c21-4cd5-88a3-e4e5f320f7d6
+
 ---
 
 *Built by one person, for one person first. If it helps you too — that's enough.*
